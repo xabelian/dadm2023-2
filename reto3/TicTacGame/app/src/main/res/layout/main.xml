@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+
+
+    <TableLayout
+        android:id="@+id/play_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TableRow>
+            <com.example.tictacgame.BoardView
+                android:id="@+id/board"
+                android:layout_width="354dp"
+                android:layout_height="333dp"
+                android:layout_marginTop="5dp">
+
+
+            </com.example.tictacgame.BoardView>
+        </TableRow>
+        <TableRow
+            android:layout_height="64dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/information"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center_horizontal"
+                android:text="info"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+</LinearLayout>
